@@ -1,0 +1,65 @@
+@font-face {
+    font-family: mcFont;
+    src: url(src/font/mcfont.ttf);
+  }
+body{
+    font-family: mcFont;
+    font-size: 1em;
+    background-color: #13171F;
+    color: #fff;
+    text-align: center;
+}
+#election{
+    display: flex;
+    justify-content: space-around;  
+}
+#fireSales {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    
+}
+#fireSale{
+    color: AA00AA;
+}
+#fireSalePrice {
+    color: #00AA00;
+    margin-bottom: 0.5em; /* Reduce bottom margin to bring the next element closer */
+}
+
+#fireSaleAmount {
+    color: #FFAA00;
+    margin-top: 0.5em; /* Reduce top margin to get closer to the previous element */
+}
+p {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+}
+#fireSaleBig {
+    background-color: #252c3a;
+    border-radius: 25px;
+    width: 500px;
+    height: 750px;
+    align-items: center;
+    vertical-align: middle;
+}
+#fireSaleSmall {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9D9D9;
+    border-radius: 25px;
+    height: 450px;
+    
+}
+#infoFireSale{
+    padding: 5%;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+#xaxa{
+    padding-top: 40px;
+}
